@@ -16,7 +16,7 @@ export default function AboutPage(props) {
     if (!id) return null
     if (index === 0) return `/api/test?id=${id}`
     const nextToken = previousPageData.nextToken
-    console.log(nextToken,'nextToken111111111',previousPageData)
+    console.log(nextToken,'nextToken111111111',previousPageData,index)
     return `/api/test?id=${id}&nextToken=${nextToken}`
   }
 
