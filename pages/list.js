@@ -81,7 +81,7 @@ export default function List() {
           <p key={issue.id} style={{ margin: "6px 0" }}>
             <Link
               legacyBehavior
-              href={`${issue.id}/?id=${index}&title=${issue.title}`}
+              href={`test/?id=${index}&title=${issue.title}`}
               prefetch={false}
             >
               {issue.title}
